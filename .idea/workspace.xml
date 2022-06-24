@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="demo-workflow: initial workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/evelop-pull-analyze.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/evelop-pull-analyze.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build-and-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
