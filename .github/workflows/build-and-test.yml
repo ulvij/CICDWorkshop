@@ -36,4 +36,17 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      - run: ./gradlew test
+      - name: Test
+        run: ./gradlew test
+
+      - name: Generate coverage reports
+        run: ./gradlew koverXmlReport
+
+      - name: Merge coverage reports
+        run: ./gradlew koverCollectReports
+
+      - name: Analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: ./gradlew sonarqube
