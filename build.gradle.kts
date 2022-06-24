@@ -33,10 +33,22 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "11"
 }
 
-val koverReportOutputDir = layout.buildDirectory.dir("kover-reports")
+val koverOutputDir = "${rootProject.buildDir}/kover-reports"
 
-tasks.koverCollectReports {
-    outputDir.set(koverReportOutputDir)
+tasks.koverHtmlReport {
+    isEnabled = true
+    htmlReportDir.set(layout.buildDirectory.dir("${koverOutputDir}/html-result"))
+
+    includes = listOf("*")
+    excludes = listOf()
+}
+
+tasks.koverXmlReport {
+    isEnabled = true
+    xmlReportFile.set(layout.buildDirectory.file("${koverOutputDir}/result.xml"))
+
+    includes = listOf("*")
+    excludes = listOf()
 }
 
 sonarqube {
@@ -46,7 +58,7 @@ sonarqube {
         property("sonar.projectKey", "kerimovscreations_cicdworkshop1")
         property(
             "sonar.coverage.jacoco.xmlReportPaths",
-            "${rootProject.buildDir}/kover-reports/_root_.xml"
+            "${koverOutputDir}/result.xml"
         )
     }
 }
