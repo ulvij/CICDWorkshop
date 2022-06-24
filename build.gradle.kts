@@ -24,7 +24,7 @@ tasks.test {
     extensions.configure(kotlinx.kover.api.KoverTaskExtension::class) {
         isDisabled = false
         binaryReportFile.set(file("$buildDir/custom/result.bin"))
-        includes = listOf("digital.pashabank.*")
+        includes = listOf("*")
         excludes = listOf()
     }
 }
