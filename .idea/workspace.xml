@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="updated kover engine to jacoco">
+    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="added time slot suggestion method and test">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-internal.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BookingService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BookingService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TimeManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TimeManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/BookingServiceImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/BookingServiceImplTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
