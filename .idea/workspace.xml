@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="added time slot suggestion method and test">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy-internal.yml" afterDir="false" />
+    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="added deploy-internal.yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-internal.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-internal.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656047310407</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added deploy-internal.yml">
+      <created>1656054820748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656054820748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +240,7 @@
     <MESSAGE value="updated code coverage generate step" />
     <MESSAGE value="fixed unit test include directory" />
     <MESSAGE value="updated kover engine to jacoco" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated kover engine to jacoco" />
+    <MESSAGE value="added deploy-internal.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added deploy-internal.yml" />
   </component>
 </project>

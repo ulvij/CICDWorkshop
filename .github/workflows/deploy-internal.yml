@@ -6,7 +6,7 @@ on:
       - develop
 
 jobs:
-  Explore-GitHub-Actions:
+  deploy-internal:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
