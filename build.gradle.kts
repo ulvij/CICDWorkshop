@@ -46,7 +46,7 @@ sonarqube {
         property("sonar.projectKey", "kerimovscreations_cicdworkshop1")
         property(
             "sonar.coverage.jacoco.xmlReportPaths",
-            "${rootProject.buildDir}/kover-reports/_data.xml"
+            "${rootProject.buildDir}/kover-reports/_root_.xml"
         )
     }
 }
